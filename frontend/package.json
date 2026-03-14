@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "node server.js",
+    "build": "node -e \"console.log('Static single-page frontend: no build step required.')\"",
+    "start": "node server.js",
+    "lint": "node -e \"console.log('No lint step configured for static single-page frontend.')\""
   },
   "dependencies": {
     "react": "^18.2.0",
